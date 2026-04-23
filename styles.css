@@ -233,4 +233,84 @@ body {
     background: #e8f5e9;
     transform: translateY(-3px);
     transition: 0.3s;
+}.article ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.article li {
+    margin-bottom: 8px;
+}.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background: #10b15a;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0a8f47;
+}.article h2 {
+    margin-top: 40px;
+    color: #10b15a;
+}
+
+.article ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.article li {
+    margin-bottom: 6px;
+}.article h2 {
+    margin-top: 40px;
+    color: #10b15a;
+}
+
+.article ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.article li {
+    margin-bottom: 6px;
+}.article h2 {
+    margin-top: 35px;
+    color: #10b15a;
+}
+
+.article ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.article li {
+    margin-bottom: 6px;
+}.footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #10b15a;
 }
