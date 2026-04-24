@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f5f5f5;
+    background: hwb(43 25% 51%);
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ body {
 
 .nav a {
     text-decoration: none;
-    background: #10b15a;
+    background: hsl(147, 58%, 66%);
     color: white;
     padding: 15px 30px;
     margin: 10px;
@@ -218,7 +218,7 @@ body {
 }
 
 .cta a:hover {
-    background: #0a8f47;
+    background: #8f3f0a;
 }.job-card {
     display: block;
     text-align: left;
@@ -312,5 +312,50 @@ body {
 .footer a {
     margin: 0 10px;
     text-decoration: none;
-    color: #10b15a;
+    color: #2810b1;
+}
+/* HEADER CONTAINER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: lch(100% 0.01 296.81);
+    border-bottom: 1px solid #eee;
+}
+
+/* LEFT SIDE */
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    margin-right: 100px;
+}
+
+.site-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(194, 83%, 38%);
+}
+
+/* NAVIGATION */
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+
+/* HOVER EFFECT */
+.nav a:hover {
+    background: lch(26.37% 35.12 80.27);
+    color: hwb(0 100% 0%);
+}.nav a.active {
+    background: #b11b10;
+    color: #ffffff;
 }
